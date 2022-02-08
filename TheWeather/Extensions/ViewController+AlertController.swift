@@ -10,7 +10,7 @@ import UIKit
 
 extension ViewController {
     
-    func presendSearchAlertController(withTitle title: String?, message: String?, style: UIAlertController.Style) {
+    func presendSearchAlertController(withTitle title: String?, message: String?, style: UIAlertController.Style, completionHandler: @escaping (String) -> Void) {
         
         let alertController = UIAlertController(title: title, message: message, preferredStyle: style)
         alertController.addTextField { textField in
@@ -22,7 +22,8 @@ extension ViewController {
             let textField = alertController.textFields?.first
             guard let cityName = textField?.text else { return }
             if cityName != "" {
-                print("Search info for the \(cityName)")
+                let city = cityName.split(separator: " ").joined(separator: "%20")
+                completionHandler(city)
             }
         }
         
