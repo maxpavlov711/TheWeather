@@ -14,6 +14,8 @@
 		5A66177027B26DD400F31526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A66176F27B26DD400F31526 /* Assets.xcassets */; };
 		5A66177327B26DD400F31526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A66177127B26DD400F31526 /* LaunchScreen.storyboard */; };
 		5A66177E27B27C4B00F31526 /* ViewController+AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66177D27B27C4B00F31526 /* ViewController+AlertController.swift */; };
+		5A66178227B2BC6800F31526 /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66178127B2BC6800F31526 /* NetworkWeatherManager.swift */; };
+		5A66178427B2BD7900F31526 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66178327B2BD7900F31526 /* Constans.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5A66177227B26DD400F31526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A66177427B26DD400F31526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A66177D27B27C4B00F31526 /* ViewController+AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+AlertController.swift"; sourceTree = "<group>"; };
+		5A66178127B2BC6800F31526 /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
+		5A66178327B2BD7900F31526 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		5A66177A27B2701600F31526 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A66178327B2BD7900F31526 /* Constans.swift */,
 				5A66176627B26DD200F31526 /* AppDelegate.swift */,
 				5A66176827B26DD200F31526 /* SceneDelegate.swift */,
 				5A66176F27B26DD400F31526 /* Assets.xcassets */,
@@ -106,6 +111,7 @@
 		5A66178027B27C7500F31526 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5A66178127B2BC6800F31526 /* NetworkWeatherManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,6 +189,8 @@
 			files = (
 				5A66176B27B26DD200F31526 /* ViewController.swift in Sources */,
 				5A66177E27B27C4B00F31526 /* ViewController+AlertController.swift in Sources */,
+				5A66178427B2BD7900F31526 /* Constans.swift in Sources */,
+				5A66178227B2BC6800F31526 /* NetworkWeatherManager.swift in Sources */,
 				5A66176727B26DD200F31526 /* AppDelegate.swift in Sources */,
 				5A66176927B26DD200F31526 /* SceneDelegate.swift in Sources */,
 			);
