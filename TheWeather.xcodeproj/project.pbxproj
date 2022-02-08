@@ -17,6 +17,7 @@
 		5A66178227B2BC6800F31526 /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66178127B2BC6800F31526 /* NetworkWeatherManager.swift */; };
 		5A66178427B2BD7900F31526 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66178327B2BD7900F31526 /* Constans.swift */; };
 		5A66178627B2C52000F31526 /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66178527B2C52000F31526 /* CurrentWeatherData.swift */; };
+		5A66178827B2C88C00F31526 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A66178727B2C88C00F31526 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5A66178127B2BC6800F31526 /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
 		5A66178327B2BD7900F31526 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		5A66178527B2C52000F31526 /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
+		5A66178727B2C88C00F31526 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				5A66178127B2BC6800F31526 /* NetworkWeatherManager.swift */,
 				5A66178527B2C52000F31526 /* CurrentWeatherData.swift */,
+				5A66178727B2C88C00F31526 /* CurrentWeather.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			files = (
 				5A66176B27B26DD200F31526 /* ViewController.swift in Sources */,
 				5A66177E27B27C4B00F31526 /* ViewController+AlertController.swift in Sources */,
+				5A66178827B2C88C00F31526 /* CurrentWeather.swift in Sources */,
 				5A66178427B2BD7900F31526 /* Constans.swift in Sources */,
 				5A66178227B2BC6800F31526 /* NetworkWeatherManager.swift in Sources */,
 				5A66176727B26DD200F31526 /* AppDelegate.swift in Sources */,
